@@ -1,0 +1,75 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+body{
+    margin: 0;
+}
+#mynav{
+    padding-left: 20%;
+}
+.navbar-brand{
+    width: 20%;
+    height: 100%;
+}
+.nav-link{
+    cursor: pointer;
+}
+.flexcenter{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+header{
+    height: auto;
+}
+#logo{
+    height: 80%;
+    width: 20%;
+}
+.nav-item button{
+    background-color: transparent;
+    border: 0;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.log-sign{
+    padding: 12px 0px 0px 30px;
+}
+#log-in{
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 14px;
+}
+#sign-up{
+    background-color: #22d074;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.content h1{
+    font-size: 50px;
+}
+.content p{
+    font-size: 18px;
+}
+.content input{
+    margin-top: 10px;
+}
+.check{
+    background-color: #22d074;
+    color: white;
+    padding: 10px;
+    border: 0;
+}
+
+.final_result{
+    background-color:#4a76aa;
+    color:white;
+    padding: 30px;
+}
